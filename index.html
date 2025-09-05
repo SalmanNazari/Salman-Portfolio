@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portfolio of Salman Nazari — Web Developer building responsive, accessible and performant web applications.">
+  <title>Salman Nazari | Web Developer</title>
+  <!-- three.js will be loaded via ES module import inside dd.js -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/fontawesome.min.css">
+</head>
+
+<body>
+  <!-- 3D Background Container -->
+  <div id="threejs-background">
+
+    <!-- Floating Navigation -->
+    <nav class="floating-nav" aria-label="Main navigation">
+      <div class="nav-brand">
+        <span class="logo">SN</span>
+        <span class="name">Salman Nazari</span>
+      </div>
+      <div class="nav-links">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="theme-toggle" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+      </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="glitch">SALMAN NAZARI</h1>
+          <div class="typewriter">
+            <h2>WEB DEVELOPER & PROGRAMMER</h2>
+          </div>
+          <p class="hero-subtitle">I build digital experiences that combine aesthetics with functionality</p>
+          <div class="hero-cta">
+            <a href="#projects" class="cta-btn pulse">View My Work</a>
+            <a href="#contact" class="cta-btn outline">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="floating-cube"></div>
+          <div class="floating-shapes">
+            <div class="shape triangle"></div>
+            <div class="shape circle"></div>
+            <div class="shape square"></div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="mouse">
+          <div class="wheel"></div>
+        </div>
+        <p>Scroll to explore</p>
+      </div>
+    </section>
+  </div>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="section-header">
+      <h2>About Me</h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="about-content">
+      <div class="about-card glass-card">
+        <div class="about-image">
+          <div class="image-border"></div>
+          <div class="image-container"><img src="d1.jpg" alt="Portrait of Salman Nazari"></div>
+        </div>
+        <div class="about-text">
+          <h3>Creating Digital Solutions</h3>
+          <p>I am SalmanNazari, a passionate website designer, programmer, and aspiring full-stack developer. I enjoy
+            building modern,
+            responsive, and user-friendly websites using technologies like HTML, CSS, JavaScript, React.js, Node.js, and
+            PHP. My
+            goal is to create digital experiences that are both visually engaging and highly functional. Currently, I am
+            focused on
+            sharpening my full-stack development skills and exploring new technologies like Flutter to expand my
+            expertise.
+          </p>
+          <p>My approach combines technical excellence with creative problem-solving to deliver solutions that not only
+            meet but exceed client expectations.</p>
+          <div class="education">
+            <h4>Education</h4>
+            <div class="edu-item">
+              <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+              <div>
+                <h5>Mohammad Jan Khan High School</h5>
+                <p>2008-2020</p>
+              </div>
+            </div>
+            <div class="edu-item">
+              <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+              <div>
+                <h5>BCS at Jahan University</h5>
+                <p>Software Enginearing| 2022-2026</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="section-header">
+      <h2>Technical Skills</h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="skills-container">
+      <div class="skills-list">
+        <div class="skill-category">
+          <h3><i class="fas fa-code"></i> Frontend</h3>
+          <div class="skill-bar">
+            <div class="skill-info">
+              <span>HTML</span>
+              <span>100%</span>
+            </div>
+            <div class="skill-progress">
+              <div class="progress-fill" style="--percent: 100%"></div>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-info">
+              <span>Css</span>
+              <span>98%</span>
+            </div>
+            <div class="skill-progress">
+              <div class="progress-fill" style="--percent: 98%"></div>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-info">
+              <span>React</span>
+              <span>70%</span>
+            </div>
+            <div class="skill-progress">
+              <div class="progress-fill" style="--percent: 70%"></div>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-info">
+              <span>Gsap.js</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-progress">
+              <div class="progress-fill" style="--percent: 90%"></div>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-info">
+              <span>JavaScript</span>
+              <span>98%</span>
+            </div>
+            <div class="skill-progress">
+              <div class="progress-fill" style="--percent: 98%"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="skill-category">
+          <h3><i class="fas fa-server"></i> Backend</h3>
+          <div class="skill-bar">
+            <div class="skill-info">
+              <span>Node.js</span>
+              <span>80%</span>
+            </div>
+            <div class="skill-progress">
+              <div class="progress-fill" style="--percent: 80%"></div>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-info">
+              <span>Next.js</span>
+              <span>60%</span>
+            </div>
+            <div class="skill-progress">
+              <div class="progress-fill" style="--percent: 60%"></div>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-info">
+              <span>PHP</span>
+              <span>85%</span>
+            </div>
+            <div class="skill-progress">
+              <div class="progress-fill" style="--percent: 85%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3><i class="fas fa-database"></i> Database</h3>
+          <div class="skill-bar">
+            <div class="skill-info">
+              <span>MongoDB</span>
+              <span>88%</span>
+            </div>
+            <div class="skill-progress">
+              <div class="progress-fill" style="--percent: 88%"></div>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-info">
+              <span>MySQL</span>
+              <span>82%</span>
+            </div>
+            <div class="skill-progress">
+              <div class="progress-fill" style="--percent: 82%"></div>
+            </div>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-info">
+              <span>Firebase</span>
+              <span>10%</span>
+            </div>
+            <div class="skill-progress">
+              <div class="progress-fill" style="--percent: 10%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skills-radar">
+        <img src="Pro.png" alt="Programming languages and tools">
+        <img src="Programming.jpg" alt="Programming languages and tools">
+        <canvas id="radar-chart"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="section-header">
+      <h2>Featured Projects</h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card glass-card">
+        <div class="project-header">
+          <h3>E-Commerce Platform</h3>
+          <div class="project-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <p>Full-featured online shopping platform with payment processing, inventory management, and real-time
+          analytics.</p>
+        <div class="project-tech">
+          <span>React</span>
+          <span>Node.js</span>
+          <span>MongoDB</span>
+          <span>Stripe API</span>
+        </div>
+        <div class="project-image"
+          style="background-image: url('https://images.unsplash.com/photo-1607082350899-7e105aa886ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')">
+        </div>
+      </div>
+
+      <div class="project-card glass-card">
+        <div class="project-header">
+          <h3>Fitness Tracker App</h3>
+          <div class="project-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <p>Mobile-first fitness application with workout planning, nutrition tracking, and progress visualization.</p>
+        <div class="project-tech">
+          <span>React Native</span>
+          <span>Firebase</span>
+          <span>Redux</span>
+          <span>Health API</span>
+        </div>
+        <div class="project-image"
+          style="background-image: url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')">
+        </div>
+      </div>
+
+      <div class="project-card glass-card">
+        <div class="project-header">
+          <h3>Data Analytics Dashboard</h3>
+          <div class="project-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <p>Real-time business intelligence dashboard with custom reporting and data visualization capabilities.</p>
+        <div class="project-tech">
+          <span>Vue.js</span>
+          <span>D3.js</span>
+          <span>Express</span>
+          <span>SQL</span>
+        </div>
+        <div class="project-image"
+          style="background-image: url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="section-header">
+      <h2>Get In Touch</h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="contact-container">
+      <div class="contact-info glass-card">
+        <h3>Contact Information</h3>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div>
+            <h4>Email</h4>
+            <p>salmannazari1953@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fas fa-phone-alt"></i>
+          </div>
+          <div>
+            <h4>Phone</h4>
+            <p>+(93) 781333996</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div>
+            <h4>Location</h4>
+            <p>Afganistan Logar Zahid-Abbad.</p>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="contact-form glass-card" aria-label="Contact form">
+        <h3>Send Me a Message</h3>
+        <form>
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Subject">
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="cta-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="glass-card">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <span class="logo">SN</span>
+        <h3>Salman Nazari</h3>
+        <p>Web Developer & Programmer</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navigation</h4>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-cta">
+        <p>Looking for a skilled developer?</p>
+        <a href="#contact" class="cta-btn">Hire Me</a>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; <span id="year"></span> Salman Nazari. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+  <script src="https://unpkg.com/three@0.152.2/build/three.min.js" defer></script>
+  <script src="main.js"></script>
+  <script>
+    // small helper: set year and ensure elements exist
+    document.addEventListener('DOMContentLoaded', function () {
+      const y = document.getElementById('year');
+      if (y) y.textContent = new Date().getFullYear();
+    });
+  </script>
+</body>
+
+</html>
